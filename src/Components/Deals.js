@@ -5,7 +5,7 @@ const Deals = () => {
         <div>
             <div className='discountContainer'>
                 <div className='dealsTitle'>
-                    <h1>Sign up for Deals and Discounts</h1>
+                    <h1 className='text-center'>Sign up for Deals and Discounts</h1>
                 </div>
                 <div className='dealsDetails'>
                     <p>blah blah blah blah blah blah blah blah blah blah blah blah</p>

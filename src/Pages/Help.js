@@ -1,8 +1,12 @@
 import Header from "../components/Header";
+import HelpText from '../components/HelpText'
 
 const Help = () => {
     return(
-        <Header />
+        <div>
+            <Header />
+            <HelpText />
+        </div>
     )
 }
 

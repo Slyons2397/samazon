@@ -1,6 +1,7 @@
-
+import { PRODUCTS } from "../features/PRODUCTS";
 
 const FeaturedProducts = () => {
+
     return (
         <div>
         <h1>Featured Products</h1>

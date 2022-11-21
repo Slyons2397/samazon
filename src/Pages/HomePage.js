@@ -4,22 +4,28 @@ import FeaturedProducts from "../components/FeaturedProducts";
 import Deals from "../components/Deals";
 import ForYou from "../components/ForYou";
 import airpods from '../images/airpods.jpg'
-import { Link } from 'react-router-dom';
+import AboutUs from "../components/AboutUs";
+import Footer from "../components/Footer";
+
 
 
 const HomePage = () => {
+
+
     return (
         <div>
             <Header />
             <MainContent  
-            
-            image = { airpods }
+
             />
             <FeaturedProducts />
             <Deals />
             <ForYou />
+            <AboutUs />
+            <Footer />
         </div>
+        
     )
-}
+};
 
 export default HomePage;
